@@ -45,7 +45,7 @@ func (t *Token) String() string {
 
 func Scan(input string) ([]*Token, error) {
 	var number = regexp.MustCompile(`^[0-9]+$`)
-	var fraction = regexp.MustCompile(`^(?P<n>[0-9]+)/(?P<d>[0-9]+)?$`)
+	var fraction = regexp.MustCompile(`^(?P<n>[0-9]+)/(?P<d>[0-9]+)$`)
 	var mixed = regexp.MustCompile(`^(?P<w>[0-9]+)_(?P<n>[0-9]+)/(?P<d>[0-9]+)$`)
 	var op = regexp.MustCompile(`^[*\-+/]$`)
 
