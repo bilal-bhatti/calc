@@ -2,13 +2,14 @@ package main
 
 import (
 	"bufio"
-	"calc/calc"
 	"fmt"
 	"os"
 	"os/signal"
 	"strings"
 
-	"calc/parser"
+	"github.com/bilal-bhatti/calc/calc"
+
+	"github.com/bilal-bhatti/calc/parser"
 )
 
 func main() {

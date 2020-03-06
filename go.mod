@@ -1,4 +1,4 @@
-module calc
+module github.com/bilal-bhatti/calc
 
 go 1.13
 

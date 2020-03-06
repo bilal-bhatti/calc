@@ -2,9 +2,10 @@ package main
 
 import (
 	"fmt"
-	"calc/calc"
-	"calc/parser"
 	"testing"
+
+	"github.com/bilal-bhatti/calc/calc"
+	"github.com/bilal-bhatti/calc/parser"
 
 	"github.com/stretchr/testify/assert"
 )

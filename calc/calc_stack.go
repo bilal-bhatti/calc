@@ -1,9 +1,10 @@
 package calc
 
 import (
-	"calc/parser"
 	"errors"
 	"fmt"
+
+	"github.com/bilal-bhatti/calc/parser"
 )
 
 type CalcStack struct {
